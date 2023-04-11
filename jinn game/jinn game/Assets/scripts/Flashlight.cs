@@ -11,7 +11,7 @@ public class Flashlight : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-      FlashlightLight .gameObject.SetActive(false); 
+      FlashlightLight.gameObject.SetActive(false); 
     }
 
     // Update is called once per frame
