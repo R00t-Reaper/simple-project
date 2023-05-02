@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/house in the forest.unity
+    guid: dcd294ed4a695b6479fb3d583b9a4c89
   m_configObjects: {}
