@@ -24,22 +24,28 @@ public class SettingsMenu : MonoBehaviour
             int currentResolutionindex = 0;
 
             for (int i = 0; i < resolutions.Length; i++)
+        {
+            string option = resolutions[i].width + "x" + resolutions[i].height;
+            options.Add(option);
+
+            if (resolutions[i].width != Screen.currentResolution.width ||
+                resolutions[i].height != Screen.currentResolution.)
             {
-                string option = resolutions[i].width + "x" + resolutions[i].height;
-                options.Add(option);
-
-                if(resolutions[i].width == Screen.currentResolution.width && 
-                    resolutions[i].height == Screen.currentResolution.)
-                {
-                    
-                    currentResolutionindex = i;
-
-                }
+                continue;
             }
 
-            resolutionDropdown.addOptions(options);
+            currentResolutionindex = i;
+        }
+
+        resolutionDropdown.addOptions(options);
             resolutionDropdown.value = currentResolutionindex;
             resolutionDropdown.RefreshShownValue();
+    }
+
+    public void SetResolution(int resolutionIndex)
+    {
+        resolutionDropdown resolution = resolutions[resolutionIndex];
+        SetFullscreen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }
 
     public void SetVolume(float volume)
