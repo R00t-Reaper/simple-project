@@ -38,6 +38,7 @@ AudioMixerGroupController:
   m_Pitch: 08de81b17faa73a4f8956c33d4d5aaca
   m_Send: 00000000000000000000000000000000
   m_Effects:
+  - {fileID: 7221505940369949120}
   - {fileID: 24400004}
   m_UserColorIndex: 0
   m_Mute: 0
@@ -69,3 +70,17 @@ AudioMixerSnapshotController:
   m_FloatValues:
     0522a815f2f8ff247a5fa565e37287c5: -0.08374829
   m_TransitionOverrides: {}
+--- !u!244 &7221505940369949120
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: fbd841558dc5c984992bb6e95fab6ca6
+  m_EffectName: Receive
+  m_MixLevel: fcf986daa5898ae44b9fe017797cde93
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
