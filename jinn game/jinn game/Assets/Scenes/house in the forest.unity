@@ -9873,6 +9873,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 459525762}
     m_Modifications:
+    - target: {fileID: 4431492845006869445, guid: 8853161094231cc4787933662801ddc5, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 30000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431492845006869445, guid: 8853161094231cc4787933662801ddc5, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 4431492845006869446, guid: 8853161094231cc4787933662801ddc5, type: 3}
       propertyPath: m_Name
       value: Rain_PS
@@ -9887,7 +9895,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4431492845006869447, guid: 8853161094231cc4787933662801ddc5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 46.6
+      value: 19.8
       objectReference: {fileID: 0}
     - target: {fileID: 4431492845006869447, guid: 8853161094231cc4787933662801ddc5, type: 3}
       propertyPath: m_LocalPosition.z
