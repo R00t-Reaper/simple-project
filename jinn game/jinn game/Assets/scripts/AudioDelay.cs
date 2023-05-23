@@ -6,14 +6,14 @@ public class AudioDelay : MonoBehaviour
 
 
 {
-
+public float timer = 2.0f; // the timer
     AudioSource myaudio;
     // Start is called before the first frame update
     void Start()
     {
         
         myaudio = GetComponent<AudioSource>();
-        Invoke("playAudio",2.0f);
+        Invoke("playAudio",timer);
 
     }
 
