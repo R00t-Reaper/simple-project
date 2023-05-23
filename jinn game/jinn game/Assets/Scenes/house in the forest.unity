@@ -1113,7 +1113,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: db8c10301afba4747b9cb393145c89b1, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.034
+  m_Volume: 0.501
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1209,7 +1209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27eb7d229b57ebe4399713f4d169f161, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 3.7
+  timer: 11.3
 --- !u!1001 &260206300
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4496,6 +4496,7 @@ GameObject:
   - component: {fileID: 959597107}
   - component: {fileID: 959597106}
   - component: {fileID: 959597105}
+  - component: {fileID: 959597108}
   - component: {fileID: 959597104}
   m_Layer: 0
   m_Name: Cube
@@ -4678,6 +4679,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 959597102}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &959597108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959597102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27eb7d229b57ebe4399713f4d169f161, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 25
 --- !u!1001 &961877265
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8746,8 +8760,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1958147591}
-  - component: {fileID: 1958147593}
   - component: {fileID: 1958147592}
+  - component: {fileID: 1958147593}
   m_Layer: 0
   m_Name: Knock
   m_TagString: Untagged
@@ -8782,7 +8796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27eb7d229b57ebe4399713f4d169f161, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 2
+  timer: 10
 --- !u!82 &1958147593
 AudioSource:
   m_ObjectHideFlags: 0
